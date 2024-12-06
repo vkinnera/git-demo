@@ -1,0 +1,281 @@
+AWS cloud practioner
+using on demand
+private - on prem
+pay-as-u-go
+server based - ec2 instance - VM
+on demand
+reserved
+dedicated
+
+AUTO SCALING/load balancing
+removes adds ec2 instance based demand
+increses decreses memory - load balancing
+
+application architechture
+monolithic
+microservices
+
+SNS - 
+
+SQS -
+
+
+severless computing is superior
+
+AWS lambda comes under severless and code is triggered
+
+AWS FARGATE - SERVERLESS
+
+
+BATCHPROCESSING WORKLOAD EC2 INSTANCE - computer optimized
+
+dedicated - 1 to 3 years
+
+
+wrk load that withstand instance - spot instance
+
+
+
+data centers and availability zones
+
+combination DC's is AZ
+
+aws backbone connects regions
+
+vpc contains AZ's and AZ contain vpc subnets 
+we can attach route table to vpc subnets
+
+direct connect is faster than vpn
+
+public subnet - Internet Gateway - bidirection
+private subnet - NAT gateway(configured in public subnet and configured in private server)- unidirection
+
+edge locations
+
+block storage eg: local HDD
+file storage eg: Win/ Lin Shared file system
+Object storage Eg: NAS - S3
+
+in single account - 100 buckets
+
+EFS
+EBS
+
+RDS
+DYNAMO DB
+
+VPC, Subnets, RouteTable, IGW, SecurityGroup, EC2: On-Demand, Spot, Reserved, SavingsPlan, Dedicated Instance/Host, NACL, EBS, EFS, FSx, S3, RDS, DyDB...
+
+
+shared responsibility model
+ 
+IAM
+MFA provided by IAM
+Acc root user have complete access like owner
+
+IAM roles 
+mfa 
+
+AWS organizations
+contains serveral accounts
+
+IAM is serverless
+
+we can attach policy to OU
+
+AWS secret manager	
+
+we can apply organizational policies to accounts and OU	
+
+AWS cloud watch
+- moniter 
+
+vpc - az - subnet - server - configure cloudwatch
+
+based on load it will do auto scaling - vertical scaling
+
+cloud trail - log service
+
+AWS trusted advisor
+
+cloud trail
+
+AWS pricing and support
+AWS free tier
+
+AWS free tier - 12 months
+consolidated volumes price will be calculated 
+
+Basic support
+
+lowest cost aws support plans includes aws trusted advisor
+
+perpectives and 
+- bussines and 
+
+platform perpective - bussines 
+
+which framework helps design and optimize bussines goals and perpective?
+platform perpective
+
+7 migration strategies
+
+migration strategies traditional to SAS?
+Repurchasing
+
+AWS snow family?
+
+INNOVATION paths
+
+Amazon Q - imorove code quality code suggestions and patching and so on 
+relaible resources
+serverless 
+cost optimize
+
+AWS cloud adoption framework STRUCTURE PERMISSION AND .?
+SECURITY PERCEPTIVE
+
+STORAGE CAPACITY - OF AWS SNOWCONE? 
+8TB
+
+REHOSTING AND SO ON
+
+STRAGE CAPACITY- SNOWCONEEDGE?
+80 TB
+
+INFRA?
+RELIABILITY PERCEPTIVE
+
+https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1
+
+https://docs.aws.amazon.com/
+
+https://www.examtopics.com/
+
+https://aws.amazon.com/certification/certified-cloud-practitioner/
+
+https://skillbuilder.aws/
+
+intro aws
+three deployment models - on prem hybrid cloud
+
+ 6 benefits of cloud computing
+ Variable expenses, cost optimization, capacity, economies of scale, speed and agility, go global in minutes
+ 
+ key concepts of global infra
+ region , az , dc , edge
+ Regions, AZs, Edge Locations and Outpost
+ 
+ infra in your building
+ outpost
+ 
+ High availbility
+ multi AZ's
+ 
+ for DR
+ 
+ AWS for edge locations
+ Edge caching service - Cloud front = CDN
+ 
+ list of services in compute 
+ EC2, Lambda, EKS, ECS, fargate
+ 
+ services in networking
+ VPC, Route53, CloudFront, WAF, Shield
+ 
+ what are the storage services?
+ EBS, EFS, S3
+ 
+ the storage clases in s3
+ Standard, IA, Glacier
+ 
+ what are the ebs volume types
+ SSD, HDD
+ 
+ what databases sevices?
+ RDS, DynamodDB, ElastiCache, Neptune, Redshift, ledger
+ 
+ data ware house - redshift
+ in memory - elastic cache
+ oracle - RDS
+ serverless/ nosql - dynamodb
+ 
+ what are the securty services? how to control aws acc?
+ IAM and access mangemnet
+ 
+ diff bw IAM user and IAM roles
+ credential temporary - IAM user and I am Rolle -admin , I am role have temperary credentials by which also we can do most of the things
+ 
+ 
+ how i do sysops?
+ cloudwatch, aws trusted advisor
+ 
+ 7 migration strategies?
+ Refactor, Retain, Rearchitect, Retire, Replatform
+ 
+ how many pillors well archetected framework?
+ 6 - Cost Optiimization, Operational Efficiency, Security, Peformance Efficiency, Sustainability and Reliability
+	
+ programatic access to aws?  - credential expires 
+ - CLI, SDK acess key and secret access key
+ non programatic access to aws? 
+ - IAM user, password
+ 
+ benefits of using cloud when you have customer around world?
+ multiple regions and edge locations - reduce latency
+ 
+ which service unused ec2 capacity?
+ SPOT instance
+ 
+ for production env?
+ reserved instances
+ 
+ UAT?
+ On-demand instance
+ 
+ encrpted connection onprem and aws?
+ site-site vpn
+ 
+ direct connect provides the direct connection b/w on prem to aws
+ 
+ what is NAT gateway?
+ allows private outbound traffic
+ 
+	what's the difference between Direct Connect and Site-site?
+	Direct connect is dedicated private network to VPC?
+	
+	which aws service identify security group?
+	AWS trusted advisor 
+	
+	NACL - subnet level - stateless
+	security group - stateful
+	
+	cloudtrail- api watching, cloudwatch - metrics, alerts etc
+	
+	company consistent and private connection?
+	AWS direct connect
+	
+	RDS DB in Multi az's
+	
+	
+	DR is multi region
+HA is multi AZ
+
+advantages of ec2 in multiple AZ
+preventing point of failure
+increses the availablity of application
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
